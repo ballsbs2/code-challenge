@@ -28,7 +28,7 @@ public class ParseController {
 
 
     @RequestMapping(method=RequestMethod.GET, path="/tweets")
-    public List<Tweet> getTweets(){
+    public List<Tweet> getTweets(String twitter_user_id){
         // TODO - Implement this function as described in the readme
         throw new NotYetImplementedException("Nothing Here!");
     }
