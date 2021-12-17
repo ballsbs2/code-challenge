@@ -12,6 +12,13 @@ based so if you add libraries please make sure to add them to the `pom.xml` so t
 - Please format your code cleanly
 - You must complete at least Tasks 1 and 2, the rest are optional and give you a chance to show of other skills 
 
+## Before You Code
+To make it easier for review please create a branch on the project that you commit and checkin all your work to. When 
+you are done with your code create a PR from that branch to `main` and email us to let us know you have completed it. 
+_Note_: you are free to create the PR when ever you like if its easier for you to see changes that way but it will only 
+be reviewed when you request it.  
+
+
 ## Task 1
 Get some tweets and replies! This is a pretty straightforward use case. We want to be able to tweet back to people after 
 they reply to one of our tweets. The first step is to pull in your tweets and all the replies for each tweet. All of 
