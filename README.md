@@ -1,6 +1,6 @@
 # code-challenge
 
-Welcome to the Social Station Coding Challenge the following exercise allows you to show us what your made of. There are
+Welcome to the Social Station Coding Challenge. There are
 no right answers here so feel free to build this challenge as you want there are a few system level requirements and
 a some tests that need to pass but the rest is up to you.
 
