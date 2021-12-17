@@ -27,8 +27,34 @@ tweets.
 Pull in a few booking reviews! This one is a bit more complicated. Booking.com does not provide an API for pulling in 
 review information but our client wants to keep tabs on how their hotel is doing. To keep tabs they want to pull in 
 review data. Scrape booking.com to grab reviews for this hotel `https://www.booking.com/hotel/us/residence-inn-by-marriott-norwalk.html#tab-reviews`. 
-To keep everything reasonable only scrape in 1 Month of data or 25 reviews (which ever yields the most). 
+To keep everything reasonable only scrape in 1 Month of data or 25 reviews (which ever yields the most reviews). 
 
 ### Task 2 Small Bonus 
-Booking reviews allow the user to provide us with an overall score, calculat the average overall score of the reviews 
-you parsed and return it with the dataset. 
+Booking reviews allow the user to provide us with an overall score, calculate the average overall score of the reviews 
+you parsed and return it with the reviews. _Hint: you will need to change the response type if you implement this_
+
+## BONUS
+If you have some extra time or want to show of your skills here are some bonus tasks you can do, you may do any 
+any combination of these tasks if you chose to add them. 
+
+## Bonus 1
+Build an endpoint that allows me to tweet back at a response to my initial tweet. This endpoint should take in the 
+content of the tweet and post it out to Twitter appropriately in response to the tweet response. 
+
+## Bonus 2 
+To help manage the end users twitter account build an endpoint that allows us to schedule a tweet for the user that 
+will post the tweet out at a specified time. 
+
+* DO NOT actually build a full-blown scheduler here, simply add a class to the `models` folder that represents the 
+database entity you would use for such a task. 
+* Keep in mind the various states the tweet can be in at any time and handle this appropriately 
+
+## Useful Info 
+Always remember to read to the end of the README! Here are some useful things to keep in mind working through this 
+- There are lots of helpful libraries for things like HTML parsing, making network requests and even interating with
+particular API's. Don't hesitate to use them they are not off limits in the real world so they are not off limits here. 
+- We use a service oriented architecture but you should feel free to extend that as you need, good code modularization
+and demonstrations of the various things that make java great in practice are never a bad idea 
+- You should handle predicable errors gracefully and unpredictable ones coherently
+- Its ok to use print statements for logging purposes
+- 

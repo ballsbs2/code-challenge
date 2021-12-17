@@ -6,4 +6,7 @@ package com.socialstation.codechallenge.models;
  * permission from the publisher.
  */
 public class Tweet {
+
+    //TODO - This should have all the tweet information
+
 }
