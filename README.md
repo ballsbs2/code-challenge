@@ -49,6 +49,11 @@ will post the tweet out at a specified time.
 database entity you would use for such a task. 
 * Keep in mind the various states the tweet can be in at any time and handle this appropriately 
 
+## Bonus 3 
+Runtimes are important as is portability so for the final bonus, build a docker image that is capable of running the 
+compiled `.war` file. This will allow us to make sure every one runs it the same way locally but would also 
+theoretically allow us to deploy it to the cloud easily.  
+
 ## Useful Info 
 Always remember to read to the end of the README! Here are some useful things to keep in mind working through this 
 - There are lots of helpful libraries for things like HTML parsing, making network requests and even interating with
@@ -57,4 +62,3 @@ particular API's. Don't hesitate to use them they are not off limits in the real
 and demonstrations of the various things that make java great in practice are never a bad idea 
 - You should handle predicable errors gracefully and unpredictable ones coherently
 - Its ok to use print statements for logging purposes
-- 
