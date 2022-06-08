@@ -68,4 +68,7 @@ particular API's. Don't hesitate to use them they are not off limits in the real
 - We use a service oriented architecture but you should feel free to extend that as you need, good code modularization
 and demonstrations of the various things that make java great in practice are never a bad idea 
 - You should handle predicable errors gracefully and unpredictable ones coherently
-- Its ok to use print statements for logging purposes
+- Logging for anything you do is important so make sure to use good logging practices here 
+
+## Final Thoughts 
+This is a chance for you to show us what you can do, how well you understand java and general code architecture. Run with it!
